@@ -1,0 +1,18 @@
+public class Main
+{
+    public static void main(String[] args)
+    {
+   One o =new One();
+   o.Scan();
+   o.q = count(o.q);
+   o.w = count (o.w);
+   o.Scan(o.q, o.w);
+
+    }
+   
+    private static int count(int x){
+        x = x+10;
+        return x;
+    }
+
+}
